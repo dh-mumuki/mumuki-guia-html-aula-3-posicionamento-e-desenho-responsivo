@@ -1,0 +1,20 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.primeiro
+  inspection: 'DeclaresStyle:position: relative'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.segundo
+  inspection: DeclaresStyle:position:absolute
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.primeiro
+  inspection: DeclaresStyle:top:30px
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.primeiro
+  inspection: DeclaresStyle:left:20px
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.segundo
+  inspection: DeclaresStyle:bottom:20px
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.segundo
+  inspection: 'DeclaresStyle:right: 30px'
