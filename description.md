@@ -1,0 +1,1 @@
+Aula 3 do curso Blended, onde veremos mais propriedades de posicionamento e design responsivo
