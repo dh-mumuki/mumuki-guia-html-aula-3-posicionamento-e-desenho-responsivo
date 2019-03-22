@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:ul
+  inspection: DeclaresStyle:position:fixed
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:ul
+  inspection: 'DeclaresStyle:top: 5px'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:ul
+  inspection: 'DeclaresStyle:left: 5px'
