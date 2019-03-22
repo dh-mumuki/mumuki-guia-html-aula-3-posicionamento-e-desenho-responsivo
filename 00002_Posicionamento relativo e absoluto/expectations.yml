@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.container
+  inspection: DeclaresStyle:position:relative
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.new
+  inspection: DeclaresStyle:position:absolute
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.new
+  inspection: 'DeclaresStyle:top: 10px'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.new
+  inspection: DeclaresStyle:left:140px
