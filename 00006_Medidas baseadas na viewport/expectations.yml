@@ -5,7 +5,7 @@ expectations:
   inspection: DeclaresStyle:height:15vh
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:div
-  inspection: DeclaresStyle:height:80vh
+  inspection: DeclaresStyle:height:85vh
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:div
   inspection: DeclaresStyle:width:100%
