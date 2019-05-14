@@ -5,7 +5,7 @@ expectations:
   inspection: DeclaresStyle:position:fixed
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:ul
-  inspection: 'DeclaresStyle:top: 5px'
+  inspection: DeclaresStyle:top:5px
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:ul
-  inspection: 'DeclaresStyle:left: 5px'
+  inspection: DeclaresStyle:left:5px
