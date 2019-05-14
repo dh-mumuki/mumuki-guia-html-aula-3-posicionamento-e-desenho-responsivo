@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.primeiro
-  inspection: 'DeclaresStyle:position: relative'
+  inspection: DeclaresStyle:position:relative
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.segundo
   inspection: DeclaresStyle:position:absolute
@@ -17,4 +17,4 @@ expectations:
   inspection: DeclaresStyle:bottom:20px
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.segundo
-  inspection: 'DeclaresStyle:right: 30px'
+  inspection: DeclaresStyle:right:30px
