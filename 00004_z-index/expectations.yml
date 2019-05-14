@@ -8,7 +8,7 @@ expectations:
   inspection: DeclaresStyle:position:relative
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.red
-  inspection: 'DeclaresStyle:z-index: -1'
+  inspection: 'DeclaresStyle:z-inde: -1'
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.yellow
   inspection: DeclaresStyle:top:10px
